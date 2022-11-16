@@ -74,6 +74,17 @@ input {
   width: 24.75rem;
 }
 
+.previousrides{
+  margin-left:50%;
+  background-color:#fff;
+  position:absolute;
+  z-index:10;
+  weight:50px;
+  height:100px;
+  top: 20;
+  right: 50;
+}
+
 .login__form input {
   border: 1px solid #E5E7EB;
   font-size: 1rem;

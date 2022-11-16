@@ -18,6 +18,7 @@ import './index.css';
 import Context from './Context';
 // import realtime database from Firebase.
 import { realTimeDb } from "./firebase";
+import PreviousRides from './components/Previousrides';
 // create App components.
 function App() {
   // create loading state and share to other components.
@@ -136,6 +137,7 @@ function App() {
           {/* Home Route */}
           <PrivateRoute exact path="/" component={Home} />
           <PrivateRoute exact path="/chat" component={Chat} />
+          <PrivateRoute exact path="/rides" component={PreviousRides} />
           {/* End Home Route */}
           {/* Login Route */}
           <Route exact path="/login">
